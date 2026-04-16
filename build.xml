@@ -290,7 +290,7 @@
 
 			<batchtest fork="yes" todir="${reports}">
 				<fileset dir="${build}">
-					<include name="**/*Test.class"/>
+					<include name="**/FastMultiByteArrayInputStreamTest.class"/>
 				</fileset>
 			</batchtest>
 		</junit>

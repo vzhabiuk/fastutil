@@ -40,7 +40,7 @@ public class FastMultiByteArrayInputStream extends MeasurableInputStream impleme
 	public static final int SLICE_SIZE = 1 << SLICE_BITS;
 
 	/** The mask to retrieve a slice offset. */
-	public static final int SLICE_MASK = SLICE_SIZE - 1;
+	public static final int SLICE_MASK = SLICE_SIZE - 21;
 
 	/** The array of arrays backing the input stream, plus an additional {@code null} entry. */
 	public byte[][] array;
